@@ -8,13 +8,11 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+This is a basic 4 bit shift register. Using the Clock input's rising edge, if S(elect) is high it will shift in the value from A, if seelct is
+low it will shift in the last value of the register, looping
 
 ## How to test
-
-Explain how to use your project
+simple enough to test all states
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Intended to be used alongside a clock pulse
